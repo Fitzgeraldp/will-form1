@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Last Will and Testament Form</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <h1>Last Will and Testament</h1>
+
+    <form id="willForm">
+
+        <div>
+            <label>Full Name:</label>
+            <input type="text" id="fullName" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Marital Status:</label>
+            <select id="martialStatus" name="martialStatus" required>
+                <option value="">Select</option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="deFactoRelationship">De facto relationship</option>
+                <option value="samesexRelationship">Same-sex relationship</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Date of Birth:</label>
+            <input type="date" id="dateOfBirth" required>
+        </div>
+
+        <div>
+            <p>Are you over 18 years of age or entering into a marriage?</p>
+            <label>
+                <input type="checkbox"> Yes
+                <input type="checkbox"> No
+            </label>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Occupation:</label>
+            <input type="text" id="occupation" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Address:</label>
+            <input type="text" id="address" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Beneficiary(s):</label>
+            <input type="text" id="beneficiaries" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Executor(s):</label>
+            <input type="text" id="executors" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Other Instruction(s):</label>
+            <input type="text" id="otherInstructions" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Additional Instructions:</label>
+            <input type="text" id="additionalInstructions" required>
+        </div>
+
+        <br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
